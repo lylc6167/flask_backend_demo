@@ -20,6 +20,8 @@ from util.common import build_ret, build_ret_one, get_g
 from util.pjwt import validate_token
 
 no_login_list = [
+    '/'
+    '/hello',
     '/member/signup',
     '/member/login',
     "/comment/tree",

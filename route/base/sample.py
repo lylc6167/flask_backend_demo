@@ -10,9 +10,9 @@ import time
 
 
 @app.route('/', methods=['GET'])
-def hello1():
+def index():
     return 'hello world first time!!!!!'
 
 @app.route('/hello', methods=['GET'])
-def hello2():
+def hello():
     return 'hello world second time!!!!!'
