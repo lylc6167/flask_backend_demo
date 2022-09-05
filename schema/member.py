@@ -10,6 +10,7 @@ import re
 from marshmallow import Schema, fields, post_load, ValidationError, validates
 from model.member import Member
 
+
 class MemberSingupSchema(Schema):
     """
     username需要检查：不可为空，只能使用字母和数字，长度在5~20之间，不能与已有用户名重复(后端)

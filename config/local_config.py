@@ -7,7 +7,6 @@
 """
 
 
-
 web = {
     "url_pre": "",
     "api_version": ["v1"],

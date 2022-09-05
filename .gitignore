@@ -5,5 +5,9 @@ build/
 dist/
 
 migrations/
+
 config.ini
 config.json
+
+/config/prod_config.py
+/config/test_config.py
