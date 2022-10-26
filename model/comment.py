@@ -14,7 +14,6 @@ from flask_app import db
 from util.time import datetime_format
 
 
-
 class Comment(db.Model):
     __tablename__ = 'comment'
     # 主键ID
